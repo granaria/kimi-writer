@@ -215,6 +215,8 @@ The agent automatically compresses context at 180K tokens. If you see compressio
 - **Max Iterations**: 300
 - **Compression Threshold**: 180,000 tokens
 
+You can customize this as you please. 
+
 ## License
 
 MIT License with Attribution Requirement - see [LICENSE](LICENSE) file for details.
@@ -228,4 +230,8 @@ MIT License with Attribution Requirement - see [LICENSE](LICENSE) file for detai
 - **Created by**: Pietro Schirano ([@Doriandarko](https://github.com/Doriandarko))
 - **Powered by**: Moonshot AI's kimi-k2-thinking model
 - **Repository**: https://github.com/Doriandarko/kimi-writer
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Doriandarko/kimi-writer&type=date&legend=top-left)](https://www.star-history.com/#Doriandarko/kimi-writer&type=date&legend=top-left)
 
