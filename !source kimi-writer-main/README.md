@@ -90,7 +90,7 @@ uv run kimi-writer.py --recover output/my_project/.context_summary_20250107_1430
 The agent has access to three tools:
 
 1. **create_project**: Creates a project folder to organize the writing
-2. **write_chapter**: Writes markdown files with three modes:
+2. **write_file**: Writes markdown files with three modes:
    - `create`: Creates a new file (fails if exists)
    - `append`: Adds content to an existing file
    - `overwrite`: Replaces the entire file content

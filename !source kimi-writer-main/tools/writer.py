@@ -4,17 +4,14 @@ File writing tool for creating and managing markdown files.
 
 import os
 from typing import Literal
-
-from ads.projectManager import ProjectManager
 from .project import get_active_project_folder
 
 
-def write_chapter_impl(filename: str, content: str, mode: Literal["create", "append", "overwrite"]) -> str:
+def write_file_impl(filename: str, content: str, mode: Literal["create", "append", "overwrite"]) -> str:
     """
     Writes content to a markdown file in the active project folder.
     
     Args:
-
         filename: The name of the file to write
         content: The content to write
         mode: The write mode - 'create', 'append', or 'overwrite'
@@ -22,7 +19,6 @@ def write_chapter_impl(filename: str, content: str, mode: Literal["create", "app
     Returns:
         Success message or error message
     """
-    print('write_chapter_impl -> writes content to a markdown file .. ')
     # Check if project folder is initialized
     project_folder = get_active_project_folder()
     if not project_folder:
